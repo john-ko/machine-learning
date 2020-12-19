@@ -16,7 +16,7 @@ def classify(x, y):
   classifier.fit(x_train, y_train)
 
   # predict
-  predictions=classifier.predict(x_test)
+  predictions = classifier.predict(x_test)
 
   return accuracy_score(y_test,predictions)
 
